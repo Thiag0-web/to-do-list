@@ -1,58 +1,12 @@
-.conteiner {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
-}
-
-
-.input-container {
-    display: inline;
-    gap: 10px;
-    margin-bottom: 10px;
-
-}
-
-
-input {
-    display: inline;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
-}
-
-span {
-    border: none;
-    border-radius: 200%;
-    cursor: pointer;
-}
-
-
-button {
-    padding: 10px 15px;
-    background-color: #28a745;
-    color: #fff;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-button:hover {
-    background-color: #218838;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
-
-
-body {
+body{
+    background-color: #3C3C3C;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,61 +16,87 @@ body {
 
 
 .conteiner {
-    background-color: #fff;
+    background-color: #654a67;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
     padding: 50px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    text-align: center;
+
 }
 
+button#addTask{
+    background-color: #28a745;
+    width: 100%;
+    color: #000000;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: 1px solid;
+    cursor: pointer;
+    
+}
+button#addTask:hover{
+    background-color: #026600;
+}
+.remove-btn{
+    background-color: #8c8c8c69;
+    color: #6f9869;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: 2px solid;
+    cursor: pointer;
+
+}
+
+.remove-btn:hover {
+    background-color: #a70000;
+}
 
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #333;
+    color: rgb(0, 0, 0);
+    text-shadow: 
+    -1px -1px 0 white,  
+     1px -1px 0 white,  
+    -1px  1px 0 white,  
+     1px  1px 0 white;
 }
 
 
 h2 {
+    color: black;
     font-size: 18px;
     margin-bottom: 15px;
-    color: #555;
 }
 
 input[type="text"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 4px;
     font-size: 14px;
 }
-
-
-button {
-    padding: 10px 15px;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
 
 ul {
     list-style-type: none;
     margin-top: 20px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
 }
 
-
 li {
-    background-color: #f8f9fa;
     padding: 10px;
     margin-bottom: 5px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    border: 1px solid black;
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
+    gap: 1em;
     align-items: center;
 }
